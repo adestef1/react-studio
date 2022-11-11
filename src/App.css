@@ -1,9 +1,65 @@
-/* Add styling for your page here */
-
-.App {
-
+html {
+    color: white;
+    background-color: rgb(213, 139, 202);
 }
 
-.BakeryItem {
-  
+.App h1 {
+    margin: 1rem;
+}
+
+p {
+    margin: 0.25rem 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart {
+    padding: 0 1rem;
+    min-width: 10rem;
+}
+
+.bakeryItem {
+  max-width: 15rem;
+  background-color: rgb(153, 204, 241);
+  margin: 1rem;
+}
+
+.bakeryItem button {
+    background-color: rgb(0, 25, 218);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.bakeryItem h1 {
+    font-size: 1rem;
+    margin: 0.25rem 0;
+}
+
+.bakeryItem img {
+    width: 15rem;
+}
+
+.bakeryItems {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 80rem;
+}
+
+.descr {
+    padding-bottom: 1rem;
+    height: 5rem;
+}
+
+.details {
+    padding: 0.5rem 1rem;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
